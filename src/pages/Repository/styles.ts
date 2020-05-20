@@ -5,6 +5,7 @@ export const Header = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 
   a {
     display: flex;
@@ -59,12 +60,12 @@ export const RepositoryInfo = styled.section`
 
     li {
       & + li {
-        margin-left: 80px;
+        margin-left: 55px;
       }
 
       strong {
         display: block;
-        font-size: 36px;
+        font-size: 26px;
         color: #dfe4ea;
       }
 
@@ -131,4 +132,18 @@ export const Issues = styled.div`
     height: 42px;
     transition: background 0.2s;
   }
+`;
+
+export const LoadingPage = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
 `;

@@ -7,6 +7,8 @@ import logoImg from '../../assets/logo.svg';
 
 import { Title, Form, Repositories, Error } from './styles';
 
+import Footer from '../../components/Footer';
+
 interface Repository {
   full_name: string;
   description: string;
@@ -95,6 +97,8 @@ const Dashboard: React.FC = () => {
           </Link>
         ))}
       </Repositories>
+
+      <Footer />
     </>
   );
 };
