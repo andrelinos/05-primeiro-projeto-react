@@ -9,6 +9,9 @@ Neste projeto podemos cadastrar uma infinidade de repositórios do github, list�
 ## Informações do Repositório
 <img src="./reposcreen.png">
 
+## Demo
+https://github-directories-andrelinos.netlify.app/
+
 ## Sobre projeto
 Projeto desenvolvido no Nível 03 em <strong>Primeiro projeto com React</strong>.
 Nesta etapa foi dado início ao aprendizado do React.JS, criando o primeiro projeto já utilizando TypeScript. Nesse ponto o dev já conhecemos os conceitos de componente, estado e propriedades.
